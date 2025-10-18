@@ -60,7 +60,7 @@ const getRedirectionRules = async () => {
  */
 const config = {
 	transpilePackages: ['@starter-kit/utils'],
-	basePath: getBasePath(),
+	basePath: '',
 	experimental: {
 		scrollRestoration: true,
 	},
